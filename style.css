@@ -59,33 +59,6 @@ img {
     transition: .3s;
 }
 
-.overlay {
-    position: absolute;
-    width: 50rem;
-    height: 50rem;
-    background: rgb(149, 149, 149);
-    left: -40%;
-    bottom: -75%;
-    z-index: -1;
-    border-radius: 50%;
-    transition: .3s;
-}
-
-.overlay.show {
-    animation: ani linear .3s;
-}
-
-.overlay.hide {
-    display: none;
-}
-
-@keyframes ani {
-    100% {
-        width: 110rem;
-        height: 110rem;
-    }
-}
-
 .shape {
     position: absolute;
     z-index: -1;
