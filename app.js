@@ -5,20 +5,17 @@ var dark = false
 toggleBtn.forEach(btn => {
     btn.addEventListener("click", () => {
 
-        var dark = false
-        toggleBtn.forEach(btn => {
-            btn.addEventListener("click", () => {
-                if (!dark) {
-                    body.classList.remove("light")
-                    body.classList.add("dark")
-                    dark = true
-                } else {
-                    body.classList.remove("dark")
-                    body.classList.add("light")
-                    dark = false
-                }
-            })
-        })
+
+        if (!dark) {
+            body.classList.remove("light")
+            body.classList.add("dark")
+            dark = true
+        } else {
+            body.classList.remove("dark")
+            body.classList.add("light")
+            dark = false
+        }
+
 
     })
 })
