@@ -59,6 +59,8 @@ img {
     transition: .3s;
 }
 
+
+
 .shape {
     position: absolute;
     z-index: -1;
